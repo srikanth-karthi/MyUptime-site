@@ -94,12 +94,12 @@ export default function MonitorDetail({
               href={monitor.netlifyProject}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ display: 'flex', alignItems: 'center', height: '16px', transform: 'translateY(3px)' }}
+              style={{ display: 'flex', alignItems: 'center', height: '13px', marginBottom: '-14px' }}
             >
               <img
                 src={monitor.netlifyBadge}
                 alt={`Netlify Status - ${monitor.name}`}
-                style={{ height: '16px', display: 'block' }}
+                style={{ height: '13px', display: 'block' }}
               />
             </a>
           )}
