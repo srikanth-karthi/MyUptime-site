@@ -80,17 +80,32 @@ export default function MonitorDetail({
       )}
     </Text>
   )
-
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        {monitor.tooltip ? (
-          <Tooltip label={monitor.tooltip}>{monitorNameElement}</Tooltip>
-        ) : (
-          monitorNameElement
-        )}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          {monitor.tooltip ? (
+            <Tooltip label={monitor.tooltip}>{monitorNameElement}</Tooltip>
+          ) : (
+            monitorNameElement
+          )}
+          {monitor.netlifyBadge && monitor.netlifyProject && (
+            <a
+              href={monitor.netlifyProject}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'flex', alignItems: 'center', height: '20px' }}
+            >
+              <img
+                src={monitor.netlifyBadge}
+                alt={`Netlify Status - ${monitor.name}`}
+                style={{ height: '20px', display: 'block' }}
+              />
+            </a>
+          )}
+        </div>
 
-        <Text mt="sm" fw={700} style={{ display: 'inline', color: getColor(uptimePercent, true) }}>
+        <Text fw={700} style={{ margin: 0, color: getColor(uptimePercent, true) }}>
           Overall: {uptimePercent}%
         </Text>
       </div>

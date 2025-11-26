@@ -1,3 +1,17 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ff498ed-ad56-4d0e-bba3-433d85db160c/deploy-status)](https://app.netlify.com/projects/srikanth-dev/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7af8afc8-05ac-4a7d-9678-a64c368b2eba/deploy-status)](https://app.netlify.com/projects/ai-srikanth/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa8b92a7-c499-4927-8d86-06bddd3bd62c/deploy-status)](https://app.netlify.com/projects/blogs-srikanth/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca1cd3fb-f66a-4de6-a7fa-07d4fe22af27/deploy-status)](https://app.netlify.com/projects/srikanth-links/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61bac8bb-2887-4527-969e-599755d9aaa5/deploy-status)](https://app.netlify.com/projects/notes-srikanth/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6ba020be-fe02-4647-9af6-9ffba604704d/deploy-status)](https://app.netlify.com/projects/srikanth-terminal/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39b275e5-5423-4fed-ab1e-b703c7676eeb/deploy-status)](https://app.netlify.com/projects/art-srikanth/deploys)
+
 Uptime Monitoring System Architecture
 
   Overall System Flow

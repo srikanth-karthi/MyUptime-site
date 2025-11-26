@@ -31,6 +31,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/7ff498ed-ad56-4d0e-bba3-433d85db160c/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/srikanth-dev/deploys',
     },
     {
       id: 'ai_portfolio',
@@ -40,6 +42,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://ai.srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/7af8afc8-05ac-4a7d-9678-a64c368b2eba/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/ai-srikanth/deploys',
     },
     {
       id: 'blogs_health',
@@ -49,6 +53,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://blogs.srikanthkarthi.tech/api/health',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/fa8b92a7-c499-4927-8d86-06bddd3bd62c/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/blogs-srikanth/deploys',
     },
     {
       id: 'links_site',
@@ -58,6 +64,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://links.srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/ca1cd3fb-f66a-4de6-a7fa-07d4fe22af27/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/srikanth-links/deploys',
     },
     {
       id: 'notes_site',
@@ -67,6 +75,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://notes.srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/61bac8bb-2887-4527-969e-599755d9aaa5/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/notes-srikanth/deploys',
     },
     {
       id: 'terminal_site',
@@ -76,6 +86,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://terminal.srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/6ba020be-fe02-4647-9af6-9ffba604704d/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/srikanth-terminal/deploys',
     },
      {
       id: 'art_site',
@@ -85,6 +97,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 3000,
       statusPageLink: 'https://art.srikanthkarthi.tech/',
+      netlifyBadge: 'https://api.netlify.com/api/v1/badges/39b275e5-5423-4fed-ab1e-b703c7676eeb/deploy-status',
+      netlifyProject: 'https://app.netlify.com/projects/art-srikanth/deploys',
     },
     
 

@@ -30,6 +30,8 @@ export type MonitorTarget = {
   target: string
   tooltip?: string
   statusPageLink?: string
+  netlifyBadge?: string
+  netlifyProject?: string
   hideLatencyChart?: boolean
   expectedCodes?: number[]
   timeout?: number
